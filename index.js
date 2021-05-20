@@ -2,8 +2,8 @@ window.onload  = function() {
     Particles.init({
         selector: '.background'
       });
-  };
-    $(document).ready(function(){
+};
+$(document).ready(function(){
     $('.login-info-box').fadeOut();
     $('.login-show').addClass('show-log-panel');
 });
