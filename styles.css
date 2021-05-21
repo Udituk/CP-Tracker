@@ -36,16 +36,35 @@
 
 /* pre-loader */
 
+/* placeholder home_page */
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-display-container{position:relative}
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-text-white,.w3-hover-text-white:hover{color:#fff!important}
+.w3-display-topleft{position:absolute;left:0;top:0}
+.w3-padding-large{color:white; padding:12px 24px!important }
+.w3-xlarge{font-size:24px!important}
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-jumbo{font-size:64px!important}
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#9e9e9e!important}
+.w3-large{font-size:18px!important}
+.w3-center{text-align:center!important display:inline-block;width:auto}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0; color:white;}
+.logo {
+  opacity: 80%;
+}
+/* placeholder home_page */
+
 body{
 font-family: 'Mukta', sans-serif;
 height:100vh;
 min-height:550px;
-/* background-image: url(http://www.planwallpaper.com/static/images/Free-Wallpaper-Nature-Scenes.jpg); */
-/* background-repeat: no-repeat; */
-/* background-size:cover;
+background-image: url(images/placeholder-home_page-bg.jpg);
+background-repeat: no-repeat;
+background-size:cover;
 background-position:center;
 position:relative;
- overflow-y: hidden; */
 }
 a{
 text-decoration:none;
@@ -107,6 +126,7 @@ right:0;left:0;
  padding:0 50px;
  top:20%;
  right:20vh;
+ text-align:left;
  position:absolute;
 
 }

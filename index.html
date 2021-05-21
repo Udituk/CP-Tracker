@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CP-Tracker Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="CP-Tracker Login-Registration Page">
+    <meta property="og:description" content="One Stop CP Destination">
+    <meta property="og:image" content="images/project1-logo-short.png">
+  </head>
+  <body>
+
+    <!-- preloader -->
+    <div class="loader">
+      <img src="images/pre-loader-gif.gif" alt="CP-Tracker&nbsp;Loading..." />
+      One&nbsp;Stop&nbsp;CP&nbsp;Destination
+    </div>
+    <!-- preloader -->
+
+    <!-- login -->
+    <div class="login-reg-panel">
+      <!-- shift to login -->
+    		<div class="login-info-box">
+    			<h2>Already have an account?</h2>
+    			<p>Welcome Back!!</p>
+    			<label id="label-register" for="log-reg-show">Login</label>
+    			<input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+    		</div>
+      <!-- shift to login -->
+      <!-- shift to register -->
+    		<div class="register-info-box">
+    			<h2>Don't have an account?</h2>
+    			<p>Welcome Aboard!!</p>
+    			<label id="label-login" for="log-login-show">Register</label>
+    			<input type="radio" name="active-log-panel" id="log-login-show">
+    		</div>
+      <!-- shift to register -->
+
+    		<div class="white-panel">
+    			<div class="login login-show">
+            <form action="home.html" target="_blank" method="get">
+              <p style="text-align:center;"><img src="images/project1-logo-short.png" alt="Site-Logo" style="width: 18vh; height:18vh; "></p>
+      				<h2 style="text-align:center;">LOGIN</h2>
+      				<input type="email" name="email" placeholder="Email" id="email" required>
+      				<input type="password" name="password" placeholder="Password" id="password" required>
+      				<input type="submit" value="Login">
+              <input type="reset" value="Reset">
+              <div class="forgot-password">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Forgot password?</a>
+              </div>
+            </form>
+    			</div>
+          <!-- login -->
+
+          <!-- register -->
+    			<div class="register-show">
+            <form action="home.html" target="_blank" method="get">
+    				<h2  style="text-align:center;">REGISTER</h2>
+            <input type="text" placeholder="Username (for cp-tracker)*" name="email" id="password" required>
+    				<input type="email" placeholder="Email*" name="email" id="password" required>
+    				<input type="password" placeholder="Password*" name="email" id="password" required>
+            <input type="text" placeholder="Codechef Handle" name="codechef_handle" id="codechef_handle">
+            <input type="text" placeholder="Hackerrank Handle" name="hackerrank_handle" id="hackerrank_handle">
+            <input type="text" placeholder="Codeforces Handle" name="codeforces_handle" id="codeforces_handle">
+            <input type="text" placeholder="Leetcode Handle" name="leetcode_handle" id="leetcode_handle">
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+    			</div>
+          <!-- register -->
+
+    		</div>
+    	</div>
+
+      <div class="w3-display-bottomleft w3-padding-large">
+        Powered by <a style="color:white" href="https://github.com/Udituk/CP-Tracker" target="_blank">CP&nbsp;Tracker</a>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="index.js" charset="utf-8">  </script>
+      <!-- Particle.js -->
+        <canvas class="background"></canvas>
+      <script src="particles.js-master/dist/particles.min.js"></script>
+      <!-- Particle.js -->
+  </body>
+</html>
