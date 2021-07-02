@@ -4,8 +4,15 @@ function Header() {
   return (
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          CP-Tracker
+        <a class="navbar-brand" href="./">
+          <img
+            src="https://i.ibb.co/BwwZ8Sc/cp-tracker-logo-short-rounded.png"
+            width="70"
+            height="70"
+            alt="cp-tracker-logo-short-rounded"
+            border="0"
+          />
+          {""} CP Tracker
         </a>
         <button
           class="navbar-toggler"
@@ -20,13 +27,20 @@ function Header() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" rel="noreferrer" href="#">
+            <a
+              class="nav-item nav-link active"
+              rel="noreferrer"
+              href="./profile"
+            >
               Profile <span class="sr-only">(current)</span>
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a class="nav-item nav-link" href="./contests">
               Contests
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a class="nav-item nav-link" href="./login">
+              Login
+            </a>
+            <a class="nav-item nav-link" href="./aboutus">
               About Us
             </a>
           </div>
