@@ -1,0 +1,19 @@
+{
+  "particles": {
+    "number": {
+        "value": 70
+    },
+    "size": {
+        "value": 3
+    }
+},
+"interactivity": {
+    "events": {
+        "onhover": {
+            "enable": true,
+            "mode": "repulse"
+        }
+    }
+}
+  }
+  

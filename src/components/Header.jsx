@@ -6,7 +6,7 @@ function Header() {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="./">
           <img
-            src="https://i.ibb.co/BwwZ8Sc/cp-tracker-logo-short-rounded.png"
+            src={process.env.PUBLIC_URL + '/images/cp-tracker-logo-short-rounded.png'}
             width="70"
             height="70"
             alt="cp-tracker-logo-short-rounded"
